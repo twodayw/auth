@@ -34,7 +34,7 @@ class Lite
         if (in_array($uid, (array)\Phalapi\DI()->config->get('app.auth.auth_not_check_user')))
             return true;
 
-        $authList = self::getAuthList($uid); //获取用户需要验证的所有有效规则列表
+        $authList = $this->getAuthList($uid); //获取用户需要验证的所有有效规则列表
 
         if (is_string($name)) {
             $name = strtolower($name);
@@ -89,7 +89,7 @@ class Lite
         static $_authList = array(); //保存用户验证通过的权限列表
 
         //读取用户所属组
-        $groups = self::getGroups($uid);
+        $groups = $this->getGroups($uid);
         $ids = array(); //保存用户所属组设置的所有权限规则id
         foreach ($groups as $g) {
             $ids = array_merge($ids, explode(',', trim($g['rules'], ',')));
