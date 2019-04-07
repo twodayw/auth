@@ -1,5 +1,5 @@
 {
-    "name": "phalapi/auth",
+    "name": "phalApi/auth",
     "description": "基于phalapi2的auth扩展",
     "type": "library",
     "license": "GPL-3.0-or-later",
@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Phalapi\\Auth\\": "src"
+            "PhalApi\\Auth\\": "src"
         }
     }
 }
