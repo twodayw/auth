@@ -1,7 +1,7 @@
 <?php
-namespace Phalapi\Auth\Auth\Domain;
+namespace PhalApi\Auth\Auth\Domain;
 
-use Phalapi\Auth\Auth\Model\Rule as Model_Auth_Rule;
+use PhalApi\Auth\Auth\Model\Rule as Model_Auth_Rule;
 /**
  * 规则领域类
  *

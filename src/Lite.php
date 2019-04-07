@@ -1,10 +1,10 @@
 <?php
-namespace Phalapi\Auth;
+namespace PhalApi\Auth;
 
 use PhalApi\Translator;
-use Phalapi\Auth\Auth\Domain\Group as Domain_Auth_Group;
-use Phalapi\Auth\Auth\Domain\Rule as Domain_Auth_Rule;
-use Phalapi\Auth\Auth\Domain\User as Domain_Auth_User;
+use PhalApi\Auth\Auth\Domain\Group as Domain_Auth_Group;
+use PhalApi\Auth\Auth\Domain\Rule as Domain_Auth_Rule;
+use PhalApi\Auth\Auth\Domain\User as Domain_Auth_User;
 class Lite
 {
 
@@ -28,10 +28,10 @@ class Lite
     public function check($name, $uid, $relation = 'or')
     {
         //判断权限检测开关
-        if (!\Phalapi\DI()->config->get('app.auth.auth_on'))
+        if (!\PhalApi\DI()->config->get('app.auth.auth_on'))
             return true;
         //判断是不是免检用户
-        if (in_array($uid, (array)\Phalapi\DI()->config->get('app.auth.auth_not_check_user')))
+        if (in_array($uid, (array)\PhalApi\DI()->config->get('app.auth.auth_not_check_user')))
             return true;
 
         $authList = $this->getAuthList($uid); //获取用户需要验证的所有有效规则列表
@@ -124,4 +124,7 @@ class Lite
         return $authList;
     }
 
+    public function test() {
+        return 'test label';
+    }
 }

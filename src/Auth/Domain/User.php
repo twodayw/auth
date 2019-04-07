@@ -1,7 +1,7 @@
 <?php
-namespace Phalapi\Auth\Auth\Domain;
+namespace PhalApi\Auth\Auth\Domain;
 
-use Phalapi\Auth\Auth\Model\User as Model_Auth_User;
+use PhalApi\Auth\Auth\Model\User as Model_Auth_User;
 /**
  * 用户领域类
  *
