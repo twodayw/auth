@@ -5,7 +5,7 @@ use PhalApi\Model\NotORMModel as NotORM;
 /*
 /**
  * 用户模型
- * @author: hms 2015-8-6
+ * @author: hms 2015-8-6 
  */
 
 class User extends NotORM
