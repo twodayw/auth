@@ -1,5 +1,5 @@
 {
-    "name": "phalApi/auth",
+    "name": "phalapi/auth",
     "description": "基于phalapi2的auth扩展",
     "type": "library",
     "license": "GPL-3.0-or-later",
