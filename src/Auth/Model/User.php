@@ -1,5 +1,5 @@
 <?php
-namespace Phalapi\Auth\Auth\Model;
+namespace PhalApi\Auth\Auth\Model;
 
 use PhalApi\Model\NotORMModel as NotORM;
 /*
