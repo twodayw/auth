@@ -18,7 +18,7 @@
 ```
 {
     "require": {
-        "phalapi/auth": "dev-master"
+        "phalApi/auth": "dev-master"
     }
 }
 ```
