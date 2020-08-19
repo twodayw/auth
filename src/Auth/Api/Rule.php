@@ -2,7 +2,7 @@
 namespace Phalapi\Auth\Auth\Api;
 
 use PhalApi\Api;
-use Phalapi\Auth\Auth\DomainRule as Domain_Auth_Rule;
+use Phalapi\Auth\Auth\Domain\Rule as Domain_Auth_Rule;
 /**
  * Class Api_Auth_Rule 规则接口服务类
  * @author: hms 2015-6-8
