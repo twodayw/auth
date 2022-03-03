@@ -1,6 +1,7 @@
 
 # 基于Phalapi2的Auth扩展
 
+Gitee镜像仓库：[https://gitee.com/jiangslee/phalapi-auth](https://gitee.com/jiangslee/phalapi-auth "Gitee镜像地址")
 
 ## 描述
 
