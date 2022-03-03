@@ -1,6 +1,7 @@
 
 # 基于Phalapi2的Auth扩展
 
+Git仓库：[https://github.com/jiangslee/phalapi-auth.git](https://github.com/jiangslee/phalapi-auth.git "Git地址")
 Gitee镜像仓库：[https://gitee.com/jiangslee/phalapi-auth](https://gitee.com/jiangslee/phalapi-auth "Gitee镜像地址")
 
 ## 描述
@@ -31,7 +32,7 @@ Gitee镜像仓库：[https://gitee.com/jiangslee/phalapi-auth](https://gitee.com
 		},
 		{
 			"type": "git",
-			"url": "https://github.com/jiangslee/auth.git"
+			"url": "https://github.com/jiangslee/phalapi-auth.git"
 		}
 	],
 
