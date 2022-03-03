@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Phalapi\\Auth\\": "src"
+            "PhalApi\\Auth\\": "src"
         }
     }
 }
