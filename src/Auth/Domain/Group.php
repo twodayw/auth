@@ -1,7 +1,7 @@
 <?php
-namespace Phalapi\Auth\Auth\Domain;
+namespace PhalApi\Auth\Auth\Domain;
 
-use Phalapi\Auth\Auth\Model\Group as Model_Auth_Group;
+use PhalApi\Auth\Auth\Model\Group as Model_Auth_Group;
 /**
  * 组领域类
  *
@@ -112,7 +112,7 @@ class Group
     public function assUser($apiObj)
     {
         $param = get_object_vars($apiObj);
-        $accessModel = new \Phalapi\Auth\Auth\Model\Access();
+        $accessModel = new \PhalApi\Auth\Auth\Model\Access();
 
         //先删除当前用户的所有关联组
         $accessModel->delByUid($param['uid']);
@@ -135,7 +135,7 @@ class Group
     
     public function getUserInGroups($uid)
     {
-        if(\Phalapi\DI()->cache===null){
+        if(\PhalApi\DI()->cache===null){
             $r=self::$Model->getUserInGroups($uid);
         }else{
             $r=self::$Model->getUserInGroupsCache($uid);
