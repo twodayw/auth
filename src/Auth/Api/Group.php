@@ -1,8 +1,8 @@
 <?php
-namespace Phalapi\Auth\Auth\Api;
+namespace PhalApi\Auth\Auth\Api;
 
 use PhalApi\Api;
-use Phalapi\Auth\Auth\Domain\Group as Domain_Auth_Group;
+use PhalApi\Auth\Auth\Domain\Group as Domain_Auth_Group;
 /**
  * Class Api_Auth_Group 组接口服务类
  * @author: hms 2015-6-8
